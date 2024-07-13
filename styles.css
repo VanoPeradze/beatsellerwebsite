@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Jet Black */
+    color: #FFFFFF; /* White */
+    background-image: url('img1.jpg.webp'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Dark Gray with opacity */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+}
+
+.beats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.beat {
+    background-color: #3D8AA4; /* Blue Gray */
+    border: 1px solid #B0B0B0; /* Light Gray */
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.beat img {
+    width: 100%;
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+audio {
+    width: 100%;
+    margin-top: 1em;
+}
+
+button {
+    background-color: #1E90FF; /* Electric Blue */
+    color: #FFFFFF; /* White */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Dark Gray with opacity */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0 0.5em;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+footer a:hover .social-icon {
+    opacity: 0.7;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with opacity */
+    color: #FFFFFF; /* White */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
