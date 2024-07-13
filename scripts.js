@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     audioElements.forEach(audio => {
         audio.addEventListener('play', () => {
             audioElements.forEach(otherAudio => {
-                if (otherAudio === audio) {
+                if (otherAudio !== audio) {
                     otherAudio.pause();
                     otherAudio.currentTime = 0;
                 }
